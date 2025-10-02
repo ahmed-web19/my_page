@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peinture de voitures et de bus | Services professionnels</title>
+    <link rel="stylesheet" href="Peinture de bus.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="#" class="logo">Peinture de <span>bus</span></a>
+                <div class="mobile-menu">☰</div>
+                <nav>
+                    <ul>
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#nos services">Nos services</a></li>
+                        <li><a href="#galerie">Galerie d'affaires</a></li>
+                        <li><a href="#contact">Contactez-nous</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Accueil -->
+    <section class="accueil" id="accueil">
+        <div class="container">
+            <h1>Services de peinture de voitures et d'autobus</h1>
+            <p>Nous fournissons des services de peinture professionnels pour voitures et bus en utilisant les dernières technologies et des matériaux de peinture de haute qualité pour garantir des résultats époustouflants et durables.</p>
+            <a href="#contact" class="btn">Demandez un service maintenant</a>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services" id="nos services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nos services</h2>
+                <p>Nous offrons une variété de services de peinture pour répondre à tous vos besoins.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-img" style="background-image:url(Photo/peinture1.jpeg);"></div>
+                    <div class="service-content">
+                        <h3>Peinture complète de la voiture</h3>
+                        <p>Un service complet de peinture automobile utilisant la dernière technologie et des matériaux de peinture de haute qualité pour garantir que votre voiture soit neuve et élégante.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img" style="background-image: url(Photo/bus.jpeg);"></div>
+                    <div class="service-content">
+                        <h3>Peinture de bus</h3>
+                        <p>Un service spécialisé dans la peinture d'autobus de toutes tailles, avec une attention aux détails et l'utilisation de matériaux résistants aux intempéries.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img" style="background-image: url(Photo/réparation.jpg);"></div>
+                    <div class="service-content">
+                        <h3>Réparer les rayures et les dommages</h3>
+                        <p>Réparation des rayures et des dommages superficiels et repeinture des zones endommagées pour restaurer l'apparence d'origine de la voiture.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galerie -->
+    <section class="gallery" id="galerie">
+        <div class="container">
+            <div class="section-title">
+                <h2>Galerie d'affaires</h2>
+                <p>Quelques exemples de nos travaux de peinture automobile et de bus</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="Photo/TP1.jpg" alt="Travaux de peinture 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="Photo/TP2.jpg" alt="Travaux de peinture 2">
+                </div>
+                <div class="gallery-item">
+                    <img src="Photo/TP3.jpeg" alt="Travaux de peinture 3">
+                </div>
+                <div class="gallery-item">
+                    <img src="Photo/TP4.jpg" alt="Travaux de peinture 4">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contactez-nous</h2>
+                <p>Contactez-nous pour une consultation gratuite ou pour demander nos services.</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Informations d'un contact</h3>
+                    <div class="contact-details">
+                        <p><i>📍</i> Adresse : Route Sebt Kzoula, Safi</p>
+                        <p><i>📞</i> Téléphone: <a href="tel:+212694753938">0694753938</a></p>
+                        <p><i>✉️</i> e-mail : <a href="mailto : ahmedelibriki74@gmail.com">ahmedelibriki74@gmail.com</a></p>
+                        <p><i>🕒</i> Horaires d'ouverture : du lundi au samedi, de 8h à 18h</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/share/16zKwx8A3Y/"><i>f</i></a>
+                        <a href="https://t.me/cannel74"><i>t</i></a>
+                        <a href="https://www.instagram.com/ahmedelibriki74?igsh=cTkzeXdhbnJjN2J3"><i>in</i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm" action="Peinture de bus.php" method="POST">
+                        <div class="form-group">
+                            <label for="name">Nom et prénom</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Numéro de téléphone</label>
+                            <input type="tel" id="phone" name="phone" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Type de service requis</label>
+                            <select id="service" name="service" class="form-control" required>
+                                <option value="">Choisissez le service</option>
+                                <option value="car-painting">Peinture automobile</option>
+                                <option value="bus-painting">Peinture autobus</option>
+                                <option value="repair">Réparer les dégâts</option>
+                                <option value="consultation">Consultation</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Envoyer le demande</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>À propos de l'entreprise</h3>
+                    <p>Nous sommes spécialisés dans les services de peinture de voitures et d'autobus depuis plus de 10 ans, offrant des services de haute qualité utilisant les dernières technologies.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Liens rapides</h3>
+                    <ul>
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#nos services">Nos services</a></li>
+                        <li><a href="#galerie">Galerie d'affaires</a></li>
+                        <li><a href="#contact">Contactez-nous</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Nos services</h3>
+                    <ul>
+                        <li><a href="#">Peinture automobile</a></li>
+                        <li><a href="#">Peinture autobus</a></li>
+                        <li><a href="#">Réparer les dégâts</a></li>
+                        <li><a href="#">Teinture spéciale</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Suivez-nous</h3>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/share/16zKwx8A3Y/"><i>f</i></a>
+                        <a href="https://t.me/cannel74"><i>t</i></a>
+                        <a href="https://www.instagram.com/ahmedelibriki74?igsh=cTkzeXdhbnJjN2J3"><i>in</i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Tous droits réservés &copy; 2023 Peinture de voitures et de bus</p>
+            </div>
+        </div>
+    </footer>
+    <script src ="Peinture de bus.js"></script>
+</body>
+</html>
